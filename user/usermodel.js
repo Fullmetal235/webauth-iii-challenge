@@ -1,4 +1,4 @@
-const db = require('../database/dbConfig.js');
+const db = require('./data/dbConfig.js');
 
 module.exports = {
   add,
@@ -25,3 +25,4 @@ function findById(id) {
   return db('users')
     .where({ id })
     .first();
+}
