@@ -1,0 +1,28 @@
+{
+  "name": "webauth-iii-challeng",
+  "version": "1.0.0",
+  "description": "Don't README over! # Authentication using JSON Web Tokens (JWTs)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fullmetal235/webauth-iii-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fullmetal235/webauth-iii-challenge/issues"
+  },
+  "homepage": "https://github.com/Fullmetal235/webauth-iii-challenge#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.19.4"
+  }
+}
